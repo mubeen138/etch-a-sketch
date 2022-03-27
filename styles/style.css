@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    justify-content: space-between;
+}
+.container{
+    flex-shrink: 0;
+    width: 940px;
+    height:940px;
+    background-color: #f1f1c7;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+.gridDiv{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
