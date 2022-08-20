@@ -49,4 +49,4 @@ function createGrid(numDivs = 16){
         containerDiv.appendChild(gridDiv);
     }
 }
-createGrid();
+clearPad();
