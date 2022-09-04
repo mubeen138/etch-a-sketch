@@ -26,7 +26,7 @@ sideBar.appendChild(clearButton);
 // Clear contents of pad and ask for new grid size
 function clearPad(){
     let input = parseInt(prompt("Enter Number of pixels per side (Max 100)"));
-    if (input > 100){
+    if (input > 100 || input < 16 || input == null || input == undefined){
         clearPad();  
     }else{
         removeAllChildNodes(containerDiv);
